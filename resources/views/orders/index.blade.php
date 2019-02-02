@@ -92,12 +92,6 @@
                   <td class="sorting text-center">{{optional($recorde->city)->name}}</td>
                   <td class="sorting text-center">{{optional($recorde->client)->name}}</td>                  
 
-                  
-                  
-
-
-                
-                  
 
                   <td class="text-center"><a href = "{{url(route('orders.edit' , $recorde->id))}}"  class="btn btn-success"><i class="fa fa-edit"></i></a></td>
                   <td class="text-center"> 
